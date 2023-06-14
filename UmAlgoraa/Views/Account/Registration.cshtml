@@ -1,0 +1,81 @@
+﻿@model UmAlgoraa.ViewModels.RegistrationViewModel
+
+@{
+    ViewData["Title"] = "Registration";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid  d-flex flex-wrap">
+
+    <div class="col-12 d-flex flex-wrap ">
+        <div class="col-3 "></div>
+        <div class="col-6 " >
+            <div class="row d-flex flex-wrap ">
+
+                <div class="col-4 "></div>
+                <div class="col-4 ">
+                    <img class="w-100 h-100" src="~/img/logo.png" />
+
+                </div>
+                <div class="col-4 "</div>
+            </div>
+            <form dir="rtl" lang="ar" class="row  d-flex justify-content-center" asp-action="Registration" method="post">
+
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input asp-for="EmpName" class="form-control w-50" placeholder="أسم الموظف" />
+                    <span asp-validation-for="EmpName" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input asp-for="Email" class="form-control w-50" placeholder="البريد الالكترونى" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input asp-for="UserName" class="form-control w-50" placeholder="اسم المستخدم" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input asp-for="NationalId" class="form-control w-50" placeholder="رقم الهوية الوطنية" />
+                    <span asp-validation-for="NationalId" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input asp-for="PhoneNumber" class="form-control w-50" placeholder="رقم الجوال" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input asp-for="Ministry" class="form-control w-50" placeholder=" الادارة " />
+                    <span asp-validation-for="Ministry" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input asp-for="Manger" class="form-control w-50" placeholder="المدير المسؤل" />
+                    <span asp-validation-for="Manger" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input asp-for="Department" class="form-control w-50" placeholder=" القسم " />
+                    <span asp-validation-for="Department" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input type="password" asp-for="Password" class="form-control w-50" placeholder="كلمة المرور" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group my-4 d-flex justify-content-center">
+                    <input type="password" asp-for="ConfirmPassWord" class="form-control w-50" placeholder="تأكيد كلمة المرور" />
+                    <span asp-validation-for="ConfirmPassWord" class="text-danger"></span>
+                </div>
+
+                <!-- 2 column grid layout -->
+                <!-- Submit button -->
+                <button type="submit" style="background-color:#4281BE" class="btn  btn-block mb-4 rounded-5 w-25 text-light"> التسجيل</button>
+
+                <!-- Register buttons -->
+
+            </form>
+
+        </div>
+        <div class="col-3 "</div>
+    </div>
+</div>
+
+
+

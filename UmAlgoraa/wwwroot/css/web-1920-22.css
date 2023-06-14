@@ -1,0 +1,539 @@
+/* screen - web-1920-22 */
+
+.web-1920-22 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  overflow: hidden;
+  width: 1943px;
+}
+
+.web-1920-22 .overlap-group5 {
+  height: 365px;
+  margin-top: -1px;
+  position: relative;
+  width: 2004px;
+}
+
+.web-1920-22 .x {
+  height: 241px;
+  left: 810px;
+  object-fit: cover;
+  position: absolute;
+  top: 124px;
+  width: 385px;
+}
+
+.web-1920-22 .overlap-group2 {
+  height: 130px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2004px;
+}
+
+.web-1920-22 .path-2895 {
+  height: 98px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 2004px;
+}
+
+.web-1920-22 .text-50 {
+  cursor: pointer;
+  left: 46px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+/*  خروج*/
+}
+
+    .web-1920-22 .text-51 {
+        cursor: pointer;
+        left: 1675px;
+        line-height: 25px;
+        position: absolute;
+        text-align: center;
+        top: 45px;
+        white-space: nowrap;
+/*        اعلاناتي
+*/
+        }
+
+
+
+.web-1920-22 .text-52 {
+  cursor: pointer;
+  left: 1424px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+/*  تقديم اعلان جديد*/
+}
+
+.web-1920-22 .text-53 {
+  left: 1267px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+/*  المسودة*/
+}
+
+.web-1920-22 .img_2211 {
+  height: 79px;
+  left: 1805px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 126px;
+}
+
+.web-1920-22 .overlap-group3 {
+  align-self: center;
+  height: 580px;
+  margin-left: 226.11px;
+  margin-top: 6px;
+  position: relative;
+  width: 925px;
+}
+
+.web-1920-22 .path-2880 {
+  cursor: pointer;
+  height: 544px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 798px;
+}
+
+.web-1920-22 .group-586 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 82px;
+  justify-content: space-between;
+  left: 622px;
+  position: absolute;
+  top: 73px;
+  width: 138px;
+}
+
+.web-1920-22 .text {
+  direction: rtl;
+  height: 37px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: 9.5px;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.web-1920-22 .text-4 {
+  flex: 1;
+  height: 22px;
+  line-height: 6px;
+  margin-bottom: -9px;
+  margin-right: -2px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.web-1920-22 .group-587 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 9px;
+  min-height: 289px;
+  position: absolute;
+  top: 225px;
+  width: 780px;
+}
+
+.web-1920-22 .group-161678 {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  left: 611px;
+  position: absolute;
+  top: 165px;
+  width: 81px;
+}
+
+.web-1920-22 .text-4-1 {
+  height: 26px;
+  line-height: 9px;
+}
+
+.web-1920-22 .group-161679 {
+  cursor: pointer;
+  display: flex;
+  height: 35px;
+  left: 630px;
+  position: absolute;
+  top: 242px;
+  width: 140px;
+}
+
+.web-1920-22 .searchinput {
+  align-items: flex-end;
+  display: flex;
+  height: 41px;
+  left: 568px;
+  min-width: 357px;
+  position: absolute;
+  top: 1px;
+}
+
+.web-1920-22 .overlap-group {
+  height: 43px;
+  margin-bottom: -2px;
+  position: relative;
+  width: 357px;
+}
+
+.web-1920-22 .text-43 {
+  height: 38px;
+  left: 53px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  width: 304px;
+}
+
+.web-1920-22 .filter {
+  height: 27px;
+  left: 16px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 25px;
+}
+
+.web-1920-22 .text-44 {
+  left: 23px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 163px;
+}
+
+.web-1920-22 .icon {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 24px;
+  display: flex;
+  height: 28px;
+  justify-content: flex-end;
+  left: 151px;
+  min-width: 40px;
+  padding: 9.4px 12.7px;
+  position: absolute;
+  top: 0;
+}
+
+.web-1920-22 .component-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 137px;
+  justify-content: center;
+  left: 184px;
+  min-width: 129px;
+  position: absolute;
+  top: 8px;
+}
+
+.web-1920-22 .overlap-group1 {
+  align-items: flex-start;
+/*  background-image: url(../img/path-2881-1@1x.png);*/
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: -5.0px;
+  min-height: 149px;
+  padding: 6.0px 7.5px;
+  width: 141px;
+}
+
+.web-1920-22 .overlap-group-1 {
+  height: 40px;
+  position: relative;
+  width: 126px;
+}
+
+
+
+
+.web-1920-22 .overlap-group8 {
+    align-self: flex-start;
+    height: 236px;
+    margin-left: 0;
+    margin-top: 800px;
+    position: relative;
+    width: 2006px;
+
+}
+
+
+
+    .web-1920-22 .overlap-group9{
+        align-self: flex-start;
+        height: 236px;
+        margin-left: 0;
+        margin-top: 800px;
+        position: relative;
+        width: 2006px;
+    }
+
+
+
+.web-1920-22 .text-45 {
+  color: var(--steel-blue);
+  font-family: var(--font-family-lato);
+  font-size: 13px;
+  font-weight: 700;
+  left: 230px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 20px;
+  white-space: nowrap;
+}
+
+.web-1920-22 .group-161726 {
+  align-items: flex-end;
+  display: flex;
+  height: 21px;
+  left: 702px;
+  position: absolute;
+  top: 168px;
+  width: 63px;
+}
+
+.web-1920-22 .text-4-2 {
+  height: 23px;
+  line-height: 6px;
+}
+
+.web-1920-22 .phone {
+  left: 188px;
+  letter-spacing: 0;
+  line-height: 7px;
+  position: absolute;
+  top: 142px;
+  white-space: nowrap;
+}
+
+.web-1920-22 .group-161727 {
+  align-items: flex-end;
+  display: flex;
+  height: 20px;
+  left: 690px;
+  position: absolute;
+  top: 290px;
+  width: 80px;
+}
+
+.web-1920-22 .phone-1 {
+  left: 188px;
+  letter-spacing: 0;
+  line-height: 7px;
+  position: absolute;
+  top: 297px;
+  white-space: nowrap;
+}
+
+.web-1920-22 .group-161728 {
+  align-items: flex-end;
+  display: flex;
+  height: 21px;
+  left: 707px;
+  position: absolute;
+  top: 324px;
+  width: 63px;
+}
+
+.web-1920-22 .group-161729 {
+  align-items: flex-end;
+  display: flex;
+  height: 24px;
+  left: 619px;
+  position: absolute;
+  top: 320px;
+  width: 81px;
+}
+
+.web-1920-22 .path-2906 {
+  height: 17px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 528px;
+  width: 28px;
+}
+
+.web-1920-22 .overlap-group4 {
+    align-self: flex-start;
+    height: 236px;
+    margin-left: 0;
+    margin-top: 51px;
+    position: relative;
+    width: 2006px;
+}
+
+
+
+
+.web-1920-22 .path-2878 {
+        height: 109px;
+        left: 0;
+        right: 0;
+        object-fit: cover;
+        position: absolute;
+        top: 1100px;
+        width: 2013px;
+    }
+
+
+
+.web-1920-22 .text-37 {
+  height: 185px;
+  left: 813px;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 60px;
+  width: 810px;
+}
+
+.web-1920-22 .text-38 {
+  height: 86px;
+  left: 813px;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  width: 1313px;
+}
+
+.web-1920-22 .rectangle {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.web-1920-22 .text-1 {
+  direction: rtl;
+  letter-spacing: 0;
+}
+
+.web-1920-22 .text-4-3 {
+  direction: rtl;
+  flex: 1;
+  letter-spacing: 0;
+  margin-bottom: -9.5px;
+  margin-right: -2px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.web-1920-22 .overlap-group7 {
+    align-self: flex-start;
+    height: 236px;
+    margin-left: 0;
+    margin-top: 600px;
+    position: relative;
+    width: 2006px;
+}
+
+
+    .web-1920-22 .overlap-group33 {
+bottom = 0;
+
+    }
+
+    .web-1920-22 .text-278 {
+        cursor: pointer;
+        left: 813px;
+        line-height: 25px;
+        position: absolute;
+        text-align: center;
+        top: 1150px;
+        white-space: nowrap;
+    }
+
+   .web-1920-22 .textP-278 {
+        cursor: pointer;
+        left: 800px;
+        line-height: 25px;
+        position: absolute;
+        text-align: center;
+        top: 1110px;
+        white-space: nowrap;
+    }
+
+
+/*.web-1920-3 .text-278 {
+    direction: rtl;
+    height: 185px;
+    left: 813px;
+    letter-spacing: 0;
+    line-height: 38px;
+    position: absolute;
+    text-align: left;
+    top: 66px;
+    width: 810px;
+}*/
+
+
+
+.web-1920-22 .text-279 {
+    direction: rtl;
+    height: 73px;
+    left: 813px;
+    letter-spacing: 0;
+    line-height: 38px;
+    position: absolute;
+    text-align: left;
+    top: 22px;
+    width: 1193px;
+}
+    .web-1920-22 .menu {
+        width: 200px;
+        height:150px;
+        overflow-y:auto;
+    
+    }
+
+.web-1920-22 .menu a{
+    background-color: white;
+    color:black;
+    display : block;
+    padding : 12px;
+    text-decoration: none;
+}
+    .web-1920-22 .menu a:hover {
+        width: 200px;
+        height: 150px;
+        overflow-y: auto;
+    }
+
+    .web-1920-22 .menu a:active {
+        width: 200px;
+        height: 150px;
+        overflow-y: auto;
+    }

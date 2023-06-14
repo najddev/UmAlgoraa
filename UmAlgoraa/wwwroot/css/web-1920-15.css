@@ -1,0 +1,267 @@
+/* screen - web-1920-15 */
+
+.web-1920-15 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  overflow: hidden;
+  width: 1943px;
+}
+
+.web-1920-15 .overlap-group2 {
+  align-self: flex-start;
+  height: 135px;
+  margin-top: -6px;
+  position: relative;
+  width: 2004px;
+}
+
+.web-1920-15 .path-2879 {
+  height: 98px;
+  left: 0;
+  width: 2004px;
+}
+
+.web-1920-15 .text-33 {
+  cursor: pointer;
+  left: 49px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.web-1920-15 .text-34 {
+  color: #82a1bf90;
+  cursor: pointer;
+  font-family: var(--font-family-molarabic-regular);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 1710px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.web-1920-15 .text-35 {
+  cursor: pointer;
+  left: 1424px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  white-space: nowrap;
+}
+
+.web-1920-15 .text-36 {
+  cursor: pointer;
+  left: 1267px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.web-1920-15 .img_2211 {
+  height: 79px;
+  left: 1817px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 126px;
+}
+
+.web-1920-15 .x {
+  height: 254px;
+  margin-right: 40.0px;
+  margin-top: 14px;
+  object-fit: cover;
+  width: 407px;
+}
+
+.web-1920-15 .text {
+  direction: rtl;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 14px;
+  width: 182px;
+}
+
+.web-1920-15 .component-9-5 {
+  margin-left: 26px;
+}
+
+.web-1920-15 .component-9-49 {
+  margin-left: 52px;
+}
+
+.web-1920-15 .text-23 {
+  color: var(--oxford-blue-2);
+  font-family: var(--font-family-proximanova-regular);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  height: 22px;
+  line-height: 14px;
+  width: 182px;
+}
+
+.web-1920-15 .flex-row {
+  align-items: center;
+  display: flex;
+  gap: 29px;
+  margin-left: 37.0px;
+  margin-top: 30px;
+  min-width: 1526px;
+}
+
+.web-1920-15 .component-9-5-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--loblolly);
+  border-radius: 3px;
+  display: flex;
+  height: 47px;
+  justify-content: flex-end;
+  margin-bottom: 120.0px;
+  min-width: 348px;
+  padding: 0 17px;
+}
+
+.web-1920-15 .overlap-group {
+  height: 411px;
+  position: relative;
+  width: 772px;
+}
+
+.web-1920-15 .component-9-51 {
+  left: 400px;
+  position: absolute;
+  top: 122px;
+}
+
+.web-1920-15 .component-9-54 {
+  left: 0;
+  position: absolute;
+  top: 122px;
+}
+
+.web-1920-15 .base {
+  background-color: var(--steel-blue);
+  border-radius: 23px;
+  height: 38px;
+  left: 606px;
+  position: absolute;
+  top: 242px;
+  width: 128px;
+}
+
+.web-1920-15 .upload {
+  height: 26px;
+  left: 703px;
+  object-fit: cover;
+  position: absolute;
+  top: 250px;
+  width: 20px;
+}
+
+.web-1920-15 .text-31 {
+  color: var(--white);
+  font-family: var(--font-family-proximanova-regular);
+  font-size: 17px;
+  font-weight: 400;
+  left: 625px;
+  line-height: 17px;
+  position: absolute;
+  top: 254px;
+  white-space: nowrap;
+}
+
+.web-1920-15 .path-2894 {
+  height: 411px;
+  left: 203px;
+  width: 569px;
+}
+
+.web-1920-15 .checkbox {
+  height: 86px;
+  left: 427px;
+  object-fit: cover;
+  position: absolute;
+  top: 93px;
+  width: 121px;
+}
+
+.web-1920-15 .text-32 {
+  left: 408px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 267px;
+  white-space: nowrap;
+}
+
+.web-1920-15 .overlap-group1 {
+  align-self: flex-start;
+  height: 236px;
+  margin-left: 0;
+  margin-top: 44px;
+  position: relative;
+  width: 2006px;
+}
+
+.web-1920-15 .path-2878 {
+  height: 100px;
+  left: 0;
+  width: 1943px;
+}
+
+.web-1920-15 .text-21 {
+  height: 185px;
+  left: 813px;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  width: 810px;
+}
+
+.web-1920-15 .text-22 {
+  height: 73px;
+  left: 813px;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  width: 1193px;
+}
+
+.web-1920-15 .component-9 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--loblolly);
+  border-radius: 3px;
+  display: flex;
+  height: 47px;
+  justify-content: flex-end;
+  min-width: 348px;
+  padding: 0 17px;
+}
+
+.web-1920-15 .path {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.web-1920-15 .text-1 {
+  direction: rtl;
+  letter-spacing: 0;
+}

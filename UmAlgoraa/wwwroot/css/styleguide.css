@@ -1,0 +1,157 @@
+:root { 
+  --black: #000000aa;
+  --black-2: #00000066;
+  --black-3: #000000;
+  --casper: #adbece;
+  --dove-gray: #70707091;
+  --loblolly: #bacad1;
+  --oxford-blue: #354e5764;
+  --oxford-blue-2: #354e5765;
+  --steel-blue: #4281be;
+  --white: #ffffff;
+  --white-2: #ffffffb9;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 19px;
+  --font-size-s: 18px;
+  --font-size-xl: 25px;
+  --font-size-xs: 15px;
+  --font-size-xxl: 26px;
+  --font-size-xxs: 14px;
+ 
+  --font-family-arial-bold: "Arial-Bold", Helvetica;
+  --font-family-arial-regular: "Arial-Regular", Helvetica;
+  --font-family-helveticaneue-regular: "HelveticaNeue-Regular", Helvetica;
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-molarabic-regular: "MOLarabic-Regular", Helvetica;
+  --font-family-neusanext_std-bold: "NeusaNext Std-Bold", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-proximanova-regular: "ProximaNova-Regular", Helvetica;
+}
+.proximanova-regular-normal-oxford-blue-14px {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-proximanova-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.molarabic-regular-normal-steel-blue-18px {
+  color: var(--steel-blue);
+  font-family: var(--font-family-molarabic-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.molarabic-regular-normal-casper-25px {
+  color: var(--casper);
+  font-family: var(--font-family-molarabic-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-medium-white-19px {
+  color: var(--white-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.neusanextstd-bold-white-26px {
+  color: var(--white);
+  font-family: var(--font-family-neusanext_std-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.arial-bold-white-26px {
+  color: var(--white);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.molarabic-regular-normal-steel-blue-25px {
+  color: var(--steel-blue);
+  font-family: var(--font-family-molarabic-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.molarabic-regular-normal-steel-blue-33px {
+  color: var(--steel-blue);
+  font-family: var(--font-family-molarabic-regular);
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-normal-black-18px {
+  color: var(--black-2);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticaneue-regular-normal-steel-blue-20px {
+  color: var(--steel-blue);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-regular-normal-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-black-26px {
+  color: var(--black-3);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.helveticaneue-regular-normal-dove-gray-20px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-bold-steel-blue-25px {
+  color: var(--steel-blue);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.proximanova-regular-normal-steel-blue-12px {
+  color: var(--steel-blue);
+  font-family: var(--font-family-proximanova-regular);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}

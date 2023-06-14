@@ -1,0 +1,48 @@
+﻿@model List<UmAlgoraa.Models.Ads>
+@{
+    ViewData["Title"] = "index";
+    Layout = "_MyLayout";
+
+}
+
+
+<div class="container-fluid  d-flex flex-wrap " dir="rtl" lang="ar">
+
+    <div class="col-12 d-flex flex-wrap ">
+        <div class="col-1 "></div>
+        <div class="col-9 h-150 " >
+            <div class="row d-flex flex-wrap " >
+
+                <div class="col-4 " ></div>
+                <div class="col-4 w-120 h-120" >
+                    <img class="w-100 h-100" src="~/img/MyLogo.jpg" />
+                </div>
+                <div class="col-4 " ></div>
+            </div>
+            @if (Model.Count == 0) 
+            {
+                <h1 class="text-center" style="color: red">sorry you havent add any ads yet!</h1>
+            }
+            @foreach (Ads ad in Model)
+            {
+
+                <div class="card row" style="border : 2px solid #4281BE">
+                    <div class="card-body col-9">
+                        @*<input type="hidden" asp-for="@ad.Id">*@
+                        <h4>عنوان الاعلان : @ad.Title</h4>
+                        <p> تاريخ الاعلان  : @ad.OpenDate</p>
+                        <p> رقم الطلب  :<span class="text-muted">@ad.CompetitionNum</span> </p>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <a asp-action="Details" asp-route-id="@ad.Id" class="btn btn-success text-center">التفاصيل</a>
+                    </div>
+
+                    <div class="card-body col-3"></div>
+                </div>
+            }
+
+        </div>
+        <div class="col-3 "</div>
+    </div>
+</div>

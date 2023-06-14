@@ -1,0 +1,138 @@
+/* screen - web-1920-1 */
+
+.web-1920-1 {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  overflow: hidden;
+  width: 1943px;
+}
+
+.web-1920-1 .x {
+  height: 613px;
+  margin-right: 62.0px;
+  margin-top: 99px;
+  object-fit: cover;
+  width: 981px;
+}
+
+    .web-1920-1 .text-4 {
+        direction: rtl;
+        letter-spacing: 0;
+        line-height: 25px;
+        margin-right: 16.0px;
+        margin-left: 16.0px;
+        margin-top: 33px;
+        min-height: 43px;
+        min-width: 1207px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+.web-1920-1 .button {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 85px;
+  margin-right: 35.61px;
+  margin-top: 55px;
+  min-width: 431px;
+  padding: 0 0.0px;
+}
+
+    .web-1920-3 .button {
+        align-items: flex-end;
+        cursor: pointer;
+        display: flex;
+        height: 85px;
+        margin-right: 35.61px;
+        margin-top: 55px;
+        min-width: 431px;
+        padding: 0 0.0px;
+    }
+
+
+
+.web-1920-1 .overlap-group {
+  height: 102px;
+  margin-bottom: -16.5px;
+  position: relative;
+  width: 431px;
+}
+
+.web-1920-1 .base {
+  height: 68px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 431px;
+}
+
+.web-1920-1 .text-1 {
+  color: var(--white);
+  direction: rtl;
+  font-family: var(--font-family-molarabic-regular);
+  font-size: 22px;
+  font-weight: 400;
+  left: 147px;
+  letter-spacing: 1.32px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 27px;
+  white-space: nowrap;
+}
+
+.web-1920-1 .overlap-group1 {
+  align-self: flex-start;
+  height: 236px;
+  margin-left: 0;
+  margin-top: 51px;
+  position: relative;
+  width: 2006px;
+}
+
+.web-1920-1 .path-2878 {
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 2004px;
+}
+
+.web-1920-1 .text-2 {
+  direction: rtl;
+  height: 185px;
+  left: 813px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  width: 810px;
+}
+
+.web-1920-1 .text-3 {
+  direction: rtl;
+  height: 73px;
+  left: 813px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  width: 1193px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}

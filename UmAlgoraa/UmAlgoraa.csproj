@@ -1,0 +1,274 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\css\globals.css" />
+    <Content Remove="wwwroot\css\styleguide.css" />
+    <Content Remove="wwwroot\css\web-1920-1.css" />
+    <Content Remove="wwwroot\css\web-1920-13.css" />
+    <Content Remove="wwwroot\css\web-1920-14.css" />
+    <Content Remove="wwwroot\css\web-1920-15.css" />
+    <Content Remove="wwwroot\css\web-1920-17.css" />
+    <Content Remove="wwwroot\css\web-1920-21.css" />
+    <Content Remove="wwwroot\css\web-1920-22.css" />
+    <Content Remove="wwwroot\css\web-1920-24.css" />
+    <Content Remove="wwwroot\css\web-1920-25.css" />
+    <Content Remove="wwwroot\css\web-1920-26.css" />
+    <Content Remove="wwwroot\css\web-1920-29.css" />
+    <Content Remove="wwwroot\css\web-1920-3.css" />
+    <Content Remove="wwwroot\css\web-1920-30.css" />
+    <Content Remove="wwwroot\css\web-1920-6.css" />
+    <Content Remove="wwwroot\css\web-1920-9.css" />
+    <Content Remove="wwwroot\css\" />
+    <Content Remove="wwwroot\fonts\Arial regular.ttf" />
+    <Content Remove="wwwroot\fonts\FontsFree-Net-arial-bold.ttf" />
+    <Content Remove="wwwroot\fonts\HelveticaNeue.ttf" />
+    <Content Remove="wwwroot\fonts\Mark Simonson - Proxima Nova Bold.otf" />
+    <Content Remove="wwwroot\fonts\MOLarabicRegular.ttf" />
+    <Content Remove="wwwroot\fonts\NeusaNextPro-Bold.ttf" />
+    <Content Remove="wwwroot\fonts\NeusaNextStd-Regular.ttf" />
+    <Content Remove="wwwroot\fonts\ProximaNova-Regular.ttf" />
+    <Content Remove="wwwroot\fonts\" />
+    <Content Remove="wwwroot\img\address-card%401x.png" />
+    <Content Remove="wwwroot\img\archive-1%401x.png" />
+    <Content Remove="wwwroot\img\base%401x.png" />
+    <Content Remove="wwwroot\img\check-1-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\check-1%401x.png" />
+    <Content Remove="wwwroot\img\check-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\check%401x.png" />
+    <Content Remove="wwwroot\img\checkbox-1%401x.png" />
+    <Content Remove="wwwroot\img\edit-1%401x.png" />
+    <Content Remove="wwwroot\img\file-------------------------------------1x-png-10%401x.png" />
+    <Content Remove="wwwroot\img\file-------------------------------------1x-png-11%401x.png" />
+    <Content Remove="wwwroot\img\file-------------------------------------1x-png-12%401x.png" />
+    <Content Remove="wwwroot\img\file-------------------------------------1x-png-2%401x.png" />
+    <Content Remove="wwwroot\img\file-------------------------------------1x-png-4%401x.png" />
+    <Content Remove="wwwroot\img\file-------------------------------------1x-png-9%401x.png" />
+    <Content Remove="wwwroot\img\file------------------------------------%401x.png" />
+    <Content Remove="wwwroot\img\file-----1x-png%401x.png" />
+    <Content Remove="wwwroot\img\file----%401x.png" />
+    <Content Remove="wwwroot\img\filter%401x.png" />
+    <Content Remove="wwwroot\img\icon-awesome-eye-1%401x.png" />
+    <Content Remove="wwwroot\img\icon-awesome-eye-2%401x.png" />
+    <Content Remove="wwwroot\img\icon-awesome-eye%401x.png" />
+    <Content Remove="wwwroot\img\img-2211-10%401x.png" />
+    <Content Remove="wwwroot\img\img-2211-19%401x.png" />
+    <Content Remove="wwwroot\img\img-2211-25%401x.png" />
+    <Content Remove="wwwroot\img\img-9221%401x.png" />
+    <Content Remove="wwwroot\img\img-9227%401x.png" />
+    <Content Remove="wwwroot\img\line-29%401x.png" />
+    <Content Remove="wwwroot\img\line-39%401x.png" />
+    <Content Remove="wwwroot\img\line-42%401x.png" />
+    <Content Remove="wwwroot\img\line-43-1%401x.png" />
+    <Content Remove="wwwroot\img\logo.png" />
+    <Content Remove="wwwroot\img\matthew-henry-vviftdjakyk-unsplash%401x.png" />
+    <Content Remove="wwwroot\img\path-11-1-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-11-1%401x.png" />
+    <Content Remove="wwwroot\img\path-11-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-11-2%401x.png" />
+    <Content Remove="wwwroot\img\path-11-3-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-11-3%401x.png" />
+    <Content Remove="wwwroot\img\path-11-4%401x.png" />
+    <Content Remove="wwwroot\img\path-11%401x.png" />
+    <Content Remove="wwwroot\img\path-2878-1%401x.png" />
+    <Content Remove="wwwroot\img\path-2878-10-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-2878-10%401x.png" />
+    <Content Remove="wwwroot\img\path-2878-11%401x.png" />
+    <Content Remove="wwwroot\img\path-2878-2%401x.png" />
+    <Content Remove="wwwroot\img\path-2878-20%401x.png" />
+    <Content Remove="wwwroot\img\path-2878-3%401x.png" />
+    <Content Remove="wwwroot\img\path-2879-10-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-2879-10%401x.png" />
+    <Content Remove="wwwroot\img\path-2879-12%401x.png" />
+    <Content Remove="wwwroot\img\path-2879-13%401x.png" />
+    <Content Remove="wwwroot\img\path-2879-16%401x.png" />
+    <Content Remove="wwwroot\img\path-2879-17%401x.png" />
+    <Content Remove="wwwroot\img\path-2880%401x.png" />
+    <Content Remove="wwwroot\img\path-2881-1%401x.png" />
+    <Content Remove="wwwroot\img\path-2881-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-2881%401x.png" />
+    <Content Remove="wwwroot\img\path-2882-1%401x.png" />
+    <Content Remove="wwwroot\img\path-2882-11%401x.png" />
+    <Content Remove="wwwroot\img\path-2882-5%401x.png" />
+    <Content Remove="wwwroot\img\path-2884-1-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-2884-1%401x.png" />
+    <Content Remove="wwwroot\img\path-2884-7%401x.png" />
+    <Content Remove="wwwroot\img\path-2884-9%401x.png" />
+    <Content Remove="wwwroot\img\path-2887-1%401x.png" />
+    <Content Remove="wwwroot\img\path-2888-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-2888%401x.png" />
+    <Content Remove="wwwroot\img\path-2889-1%401x.png" />
+    <Content Remove="wwwroot\img\path-2889-1x-png%401x.png" />
+    <Content Remove="wwwroot\img\path-2889-2%401x.png" />
+    <Content Remove="wwwroot\img\path-2889-3%401x.png" />
+    <Content Remove="wwwroot\img\path-2889%401x.png" />
+    <Content Remove="wwwroot\img\path-2890-10%401x.png" />
+    <Content Remove="wwwroot\img\path-2890-2%401x.png" />
+    <Content Remove="wwwroot\img\path-2890-7%401x.png" />
+    <Content Remove="wwwroot\img\path-2890-9%401x.png" />
+    <Content Remove="wwwroot\img\path-2891%401x.png" />
+    <Content Remove="wwwroot\img\path-2892%401x.png" />
+    <Content Remove="wwwroot\img\path-2894-1%401x.png" />
+    <Content Remove="wwwroot\img\path-2897%401x.png" />
+    <Content Remove="wwwroot\img\path-2902%401x.png" />
+    <Content Remove="wwwroot\img\path-2906-1%401x.png" />
+    <Content Remove="wwwroot\img\path-2906-2%401x.png" />
+    <Content Remove="wwwroot\img\path-2906%401x.png" />
+    <Content Remove="wwwroot\img\search%401x.png" />
+    <Content Remove="wwwroot\img\union-12-1%401x.png" />
+    <Content Remove="wwwroot\img\upload%401x.png" />
+    <Content Remove="wwwroot\img\" />
+    <Content Remove="wwwroot\css\web-1920-3 %28copy%29.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\Account\Registration.cshtml" />
+    <None Include="Views\Account\SignIn.cshtml" />
+    <None Include="Views\Draft\Index.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+    <None Include="wwwroot\css\globals.css" />
+    <None Include="wwwroot\css\styleguide.css" />
+    <None Include="wwwroot\css\web-1920-1.css" />
+    <None Include="wwwroot\css\web-1920-13.css" />
+    <None Include="wwwroot\css\web-1920-14.css" />
+    <None Include="wwwroot\css\web-1920-15.css" />
+    <None Include="wwwroot\css\web-1920-17.css" />
+    <None Include="wwwroot\css\web-1920-21.css" />
+    <None Include="wwwroot\css\web-1920-22.css" />
+    <None Include="wwwroot\css\web-1920-24.css" />
+    <None Include="wwwroot\css\web-1920-25.css" />
+    <None Include="wwwroot\css\web-1920-26.css" />
+    <None Include="wwwroot\css\web-1920-29.css" />
+    <None Include="wwwroot\css\web-1920-3.css" />
+    <None Include="wwwroot\css\web-1920-30.css" />
+    <None Include="wwwroot\css\web-1920-6.css" />
+    <None Include="wwwroot\css\web-1920-9.css" />
+    <None Include="wwwroot\fonts\Arial regular.ttf" />
+    <None Include="wwwroot\fonts\FontsFree-Net-arial-bold.ttf" />
+    <None Include="wwwroot\fonts\HelveticaNeue.ttf" />
+    <None Include="wwwroot\fonts\Mark Simonson - Proxima Nova Bold.otf" />
+    <None Include="wwwroot\fonts\MOLarabicRegular.ttf" />
+    <None Include="wwwroot\fonts\NeusaNextPro-Bold.ttf" />
+    <None Include="wwwroot\fonts\NeusaNextStd-Regular.ttf" />
+    <None Include="wwwroot\fonts\ProximaNova-Regular.ttf" />
+    <None Include="wwwroot\img\address-card%401x.png" />
+    <None Include="wwwroot\img\archive-1%401x.png" />
+    <None Include="wwwroot\img\base%401x.png" />
+    <None Include="wwwroot\img\check-1-1x-png%401x.png" />
+    <None Include="wwwroot\img\check-1%401x.png" />
+    <None Include="wwwroot\img\check-1x-png%401x.png" />
+    <None Include="wwwroot\img\check%401x.png" />
+    <None Include="wwwroot\img\checkbox-1%401x.png" />
+    <None Include="wwwroot\img\edit-1%401x.png" />
+    <None Include="wwwroot\img\file-------------------------------------1x-png-10%401x.png" />
+    <None Include="wwwroot\img\file-------------------------------------1x-png-11%401x.png" />
+    <None Include="wwwroot\img\file-------------------------------------1x-png-12%401x.png" />
+    <None Include="wwwroot\img\file-------------------------------------1x-png-2%401x.png" />
+    <None Include="wwwroot\img\file-------------------------------------1x-png-4%401x.png" />
+    <None Include="wwwroot\img\file-------------------------------------1x-png-9%401x.png" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\file------------------------------------%401x.png" />
+    <None Include="wwwroot\img\file-----1x-png%401x.png" />
+    <None Include="wwwroot\img\file----%401x.png" />
+    <None Include="wwwroot\img\filter%401x.png" />
+    <None Include="wwwroot\img\icon-awesome-eye-1%401x.png" />
+    <None Include="wwwroot\img\icon-awesome-eye-2%401x.png" />
+    <None Include="wwwroot\img\icon-awesome-eye%401x.png" />
+    <None Include="wwwroot\img\img-2211-10%401x.png" />
+    <None Include="wwwroot\img\img-2211-19%401x.png" />
+    <None Include="wwwroot\img\img-2211-25%401x.png" />
+    <None Include="wwwroot\img\img-9221%401x.png" />
+    <None Include="wwwroot\img\img-9227%401x.png" />
+    <None Include="wwwroot\img\line-29%401x.png" />
+    <None Include="wwwroot\img\line-39%401x.png" />
+    <None Include="wwwroot\img\line-42%401x.png" />
+    <None Include="wwwroot\img\line-43-1%401x.png" />
+    <None Include="wwwroot\img\matthew-henry-vviftdjakyk-unsplash%401x.png" />
+    <None Include="wwwroot\img\path-11-1-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-11-1%401x.png" />
+    <None Include="wwwroot\img\path-11-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-11-2%401x.png" />
+    <None Include="wwwroot\img\path-11-3-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-11-3%401x.png" />
+    <None Include="wwwroot\img\path-11-4%401x.png" />
+    <None Include="wwwroot\img\path-11%401x.png" />
+    <None Include="wwwroot\img\path-2878-1%401x.png" />
+    <None Include="wwwroot\img\path-2878-10-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-2878-10%401x.png" />
+    <None Include="wwwroot\img\path-2878-11%401x.png" />
+    <None Include="wwwroot\img\path-2878-2%401x.png" />
+    <None Include="wwwroot\img\path-2878-20%401x.png" />
+    <None Include="wwwroot\img\path-2878-3%401x.png" />
+    <None Include="wwwroot\img\path-2879-10-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-2879-10%401x.png" />
+    <None Include="wwwroot\img\path-2879-12%401x.png" />
+    <None Include="wwwroot\img\path-2879-13%401x.png" />
+    <None Include="wwwroot\img\path-2879-16%401x.png" />
+    <None Include="wwwroot\img\path-2879-17%401x.png" />
+    <None Include="wwwroot\img\path-2880%401x.png" />
+    <None Include="wwwroot\img\path-2881-1%401x.png" />
+    <None Include="wwwroot\img\path-2881-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-2881%401x.png" />
+    <None Include="wwwroot\img\path-2882-1%401x.png" />
+    <None Include="wwwroot\img\path-2882-11%401x.png" />
+    <None Include="wwwroot\img\path-2882-5%401x.png" />
+    <None Include="wwwroot\img\path-2884-1-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-2884-1%401x.png" />
+    <None Include="wwwroot\img\path-2884-7%401x.png" />
+    <None Include="wwwroot\img\path-2884-9%401x.png" />
+    <None Include="wwwroot\img\path-2887-1%401x.png" />
+    <None Include="wwwroot\img\path-2888-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-2888%401x.png" />
+    <None Include="wwwroot\img\path-2889-1%401x.png" />
+    <None Include="wwwroot\img\path-2889-1x-png%401x.png" />
+    <None Include="wwwroot\img\path-2889-2%401x.png" />
+    <None Include="wwwroot\img\path-2889-3%401x.png" />
+    <None Include="wwwroot\img\path-2889%401x.png" />
+    <None Include="wwwroot\img\path-2890-10%401x.png" />
+    <None Include="wwwroot\img\path-2890-2%401x.png" />
+    <None Include="wwwroot\img\path-2890-7%401x.png" />
+    <None Include="wwwroot\img\path-2890-9%401x.png" />
+    <None Include="wwwroot\img\path-2891%401x.png" />
+    <None Include="wwwroot\img\path-2892%401x.png" />
+    <None Include="wwwroot\img\path-2894-1%401x.png" />
+    <None Include="wwwroot\img\path-2897%401x.png" />
+    <None Include="wwwroot\img\path-2902%401x.png" />
+    <None Include="wwwroot\img\path-2906-1%401x.png" />
+    <None Include="wwwroot\img\path-2906-2%401x.png" />
+    <None Include="wwwroot\img\path-2906%401x.png" />
+    <None Include="wwwroot\img\search%401x.png" />
+    <None Include="wwwroot\img\union-12-1%401x.png" />
+    <None Include="wwwroot\img\upload%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_Final\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\fonts\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.6" />
+  </ItemGroup>
+</Project>

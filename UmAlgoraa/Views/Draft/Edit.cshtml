@@ -1,0 +1,128 @@
+﻿@model UmAlgoraa.ViewModels.AdsViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_MyLayout";
+}
+
+<div class="container d-flex flex-wrap">
+
+    <div class="col-12 d-flex flex-wrap ">
+        <div class="col-3 "></div>
+        <div class="col-6 ">
+            <div class="col-5"></div>
+            <div>
+                <img class="w-50 h-50 d-flex justify-content-center" style="border-radius:50px" src="~/img/logo.png" />
+
+            </div>
+            <form method="post" asp-action="Edit" enctype="multipart/form-data">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row w-100">
+                    <div class="container d-flex">
+                        <div class="form-group col-3 p-2 m-2">
+                            <label asp-for="Title" style="color:blue" class="control-label"> العنوان</label>
+                            <input asp-for="Title" class="form-control" placeholder="العنوان" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-3 p-2 m-2">
+                            <label asp-for="Competition" style="color:blue" class="control-label"> االمنافسة</label>
+
+                            <input asp-for="Competition" class="form-control" placeholder="االمنافسة" />
+                            <span asp-validation-for="Competition" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-3 p-2 m-2">
+                            <label asp-for="OpenDate" style="color:blue" class="control-label"> موعد فتح الظرف</label>
+
+                            <input asp-for="OpenDate" class="form-control" placeholder="موعد فتح الظرف " />
+                            <span asp-validation-for="OpenDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-3 p-2 m-2">
+                            <label asp-for="OpenDate" style="color:blue" class="control-label"> اخر موعدللعطاءات</label>
+
+                            <input asp-for="Deadline" class="form-control" placeholder=" اخر موعد للعطاءات " />
+                            <span asp-validation-for="Deadline" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="container d-flex">
+                        <div class="form-group col-3 p-2 m-2">
+                            <label asp-for="OpenDate" style="color:blue" class="control-label"> قيمة الكراسة</label>
+
+                            <input asp-for="PampletValue" class="form-control" placeholder="قيمة الكراسة" />
+                            <span asp-validation-for="PampletValue" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-3 p-2 m-2">
+                            <label asp-for="OpenDate" style="color:blue" class="control-label"> رقم  المنافسة</label>
+
+                            <input asp-for="CompetitionNum" class="form-control" placeholder="رقم  المنافسة" />
+                            <span asp-validation-for="CompetitionNum" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-3 p-2 m-2">
+                            <label asp-for="OpenDate" style="color:blue" class="control-label"> التفاصيل</label>
+
+                            <input asp-for="Detalies" class="form-control" placeholder="التفاصيل" />
+                            <span asp-validation-for="Detalies" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-3 p-2 m-2">
+                            <label asp-for="OpenDate" style="color:blue" class="control-label"> الملاحظات</label>
+
+                            <input asp-for="Notes" class="form-control" placeholder="الملاحظات" />
+                            <span asp-validation-for="Notes" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="File" style="font-size:20px; color:blue" class="control-label">اختر صورة:</label>
+                        <input asp-for="File" type="file" style="width:300px" class="form-control" placeholder="ارفاق صورة" />
+                        <span asp-validation-for="File" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group form-check m-2 p-2">
+                        <label class="form-check-label m-2 p-2">
+                            <input class="form-check-input" asp-for="IsDrafted" />
+                            <span>حفظ في المسودة</span>
+                        </label>
+                    </div>
+
+                    @*<div class="form-group col-3 p-2 m-2">
+                    <input asp-for="IsDrafted" class="form-control" placeholder="الملاحظات" />
+                    <span asp-validation-for="IsDrafted" class="text-danger"></span>
+                    </div>*@
+
+                    <div class="d-flex m-2 p-5 justify-content-center">
+
+                        <div class="form-group m-2 p-2">
+                            <button type="submit" class="btn btn-primary btn-block mb-4 rounded-5 " style="border-radius:25px; width:150px;height:50px">حفظ الاعلان </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+
+        <script>
+            gotoads(){
+                var input = document.getElementById("GoTo");
+                input.innerText = "1";
+
+                //var t = $("#GoTo");
+                //t.val('1');
+            }
+            gotodraft(){
+                var input = document.getElementById("GoTo");
+                input.ariaValueText = "2";
+
+                //var t = $("#GoTo");
+                //t.val('2')
+            }
+        </script>
+    }

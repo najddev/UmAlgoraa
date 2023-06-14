@@ -1,0 +1,182 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,400|Lato:700,400");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/6460921542725a1e838e1f84.646092164a03f23f1006d15d.1qLyQ7M.hcp.png");
+
+@font-face {
+  font-family: "NeusaNext Std-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/NeusaNextPro-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MOLarabic-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/MOLarabicRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProximaNova-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeue-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Arial regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/FontsFree-Net-arial-bold.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.component-container {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 19.0px;
+  margin-top: 51px;
+  min-width: 1496px;
+}
+
+.group-584 {
+  display: flex;
+  flex: 1;
+  height: 35px;
+  max-height: 35px;
+}
+
+.group-585 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  height: 20px;
+  margin-left: 60px;
+  max-height: 20px;
+}
+
+.line-29 {
+  margin-left: 0;
+  width: 780px;
+}
+
+.line-32 {
+  margin-left: 0;
+  margin-top: 207px;
+  width: 780px;
+}
+
+.line-32-1 {
+  height: 1px;
+  margin-left: 0;
+  margin-top: 80px;
+  object-fit: cover;
+  width: 780px;
+}
+
+.rectangle-303 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: #dededf;
+  border-radius: 100px;
+  height: 37px;
+  width: 219px;
+}
+
+.icon-search {
+  height: 14px;
+  left: 187px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 14px;
+}
+
+.path-11 {
+  height: 9px;
+  object-fit: cover;
+  width: 13px;
+}
+
+.line-41 {
+  left: 0;
+  position: absolute;
+  top: 34px;
+  width: 126px;
+}
+
+.rectangle-319 {
+  background-color: #f3f3f3;
+  border-radius: 3px 3px 0px 0px;
+  height: 40px;
+  width: 125px;
+}
+
+.line-40 {
+  margin-top: 27px;
+  width: 126px;
+}
+
+.line-39 {
+  margin-top: 33px;
+  width: 126px;
+}
+
+.line {
+  height: 1px;
+  object-fit: cover;
+}
+
+.group-16170 {
+  border-radius: 7px;
+  height: 18px;
+  left: 197px;
+  top: 0;
+  width: 112px;
+}
+
+.rectangle-1477 {
+  top: 17px;
+}
+
+.text-container-1 {
+  height: 32px;
+  position: relative;
+  width: 46px;
+}

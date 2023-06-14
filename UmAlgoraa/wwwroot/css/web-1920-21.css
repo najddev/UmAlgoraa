@@ -1,0 +1,528 @@
+/* screen - web-1920-21 */
+
+.web-1920-21 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  overflow: hidden;
+  width: 1943px;
+}
+
+.web-1920-21 .overlap-group-container {
+  height: 887px;
+  margin-left: -18px;
+  margin-top: -10px;
+  position: relative;
+  width: 2004px;
+}
+
+
+    .web-1920-21 .overlap-group1 {
+        align-self: flex-start;
+        height: 236px;
+        margin-left: 0;
+        margin-top: 51px;
+        position: relative;
+        width: 2006px;
+    }
+
+.web-1920-21 .path-2879 {
+  height: 98px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 2004px;
+}
+
+.web-1920-21 .text-58 {
+  cursor: pointer;
+  direction: rtl;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .text-59 {
+  cursor: pointer;
+  direction: rtl;
+  left: 1728px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .text-60 {
+  cursor: pointer;
+  direction: rtl;
+  left: 1442px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .text-61 {
+  cursor: pointer;
+  direction: rtl;
+  left: 1285px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .img_2211 {
+  height: 79px;
+  left: 1835px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 126px;
+}
+
+.web-1920-21 .overlap-group {
+  align-items: center;
+  background-image: url(../img/path-2884-1-1x-png@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  left: 524px;
+  min-height: 774px;
+  padding: 32.5px 46.9px;
+  position: absolute;
+  top: 113px;
+  width: 836px;
+}
+
+.web-1920-21 .text-70 {
+  direction: rtl;
+  height: 53px;
+  letter-spacing: 0;
+  line-height: 33px;
+  margin-left: 127.0px;
+  text-align: left;
+  width: 295px;
+}
+
+.web-1920-21 .text-81 {
+  direction: rtl;
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 2.0px;
+  margin-top: 50px;
+  text-align: left;
+  width: 120px;
+}
+
+.web-1920-21 .overlap-group10 {
+  align-items: flex-end;
+  background-color: var(--steel-blue);
+  border-radius: 23px;
+  display: flex;
+  height: 38px;
+  margin-right: 14.0px;
+  margin-top: 150px;
+  min-width: 128px;
+  padding: 7.0px 19.0px;
+}
+
+.web-1920-21 .text-82 {
+  direction: rtl;
+  letter-spacing: 0;
+  line-height: 15px;
+  min-height: 19px;
+  min-width: 83px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .overlap-group-container-1 {
+  align-self: flex-end;
+  gap: 89px;
+  height: 85px;
+  margin-top: 63px;
+  min-width: 739px;
+}
+
+.web-1920-21 .overlap-group5 {
+  align-self: flex-end;
+  height: 83px;
+  position: relative;
+  width: 325px;
+}
+
+.web-1920-21 .path-2887 {
+  height: 41px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 1px;
+}
+
+.web-1920-21 .group-161701 {
+  border-radius: 37px;
+  height: 50px;
+  left: 0;
+  top: 18px;
+  width: 325px;
+}
+
+.web-1920-21 .text-77 {
+  direction: rtl;
+  height: 22px;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 182px;
+}
+
+.web-1920-21 .text-79 {
+  direction: rtl;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 39px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .overlap-group11 {
+  height: 73px;
+  position: relative;
+  width: 325px;
+}
+
+.web-1920-21 .group-161697 {
+  border-radius: 37px;
+  height: 50px;
+  left: 0;
+  top: 20px;
+  width: 325px;
+}
+
+.web-1920-21 .group-161696 {
+  border-radius: 7px;
+  height: 18px;
+  left: 198px;
+  top: 2px;
+  width: 112px;
+}
+
+.web-1920-21 .text-72 {
+  direction: rtl;
+  left: 139px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .text-75 {
+  direction: rtl;
+  height: 22px;
+  left: 99px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 182px;
+}
+
+.web-1920-21 .overlap-group-container-2 {
+  align-self: flex-start;
+  gap: 79px;
+  height: 73px;
+  margin-left: 3.0px;
+  margin-top: 9px;
+  min-width: 729px;
+}
+
+.web-1920-21 .overlap-group7 {
+  align-self: flex-end;
+  height: 69px;
+  position: relative;
+  width: 325px;
+}
+
+.web-1920-21 .rectangle-147719 {
+  top: 13px;
+}
+
+.web-1920-21 .text-78 {
+  direction: rtl;
+  height: 22px;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 4px;
+  width: 182px;
+}
+
+.web-1920-21 .text-80 {
+  direction: rtl;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 37px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .overlap-group6 {
+  height: 70px;
+  position: relative;
+  width: 325px;
+}
+
+.web-1920-21 .group-161699 {
+  border-radius: 7px;
+  height: 18px;
+  left: 209px;
+  top: 0;
+  width: 112px;
+}
+
+.web-1920-21 .text-71 {
+  direction: rtl;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .text-74 {
+  direction: rtl;
+  height: 22px;
+  left: 125px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 182px;
+}
+
+.web-1920-21 .overlap-group-container-3 {
+  gap: 81px;
+  height: 73px;
+  margin-right: 5.0px;
+  margin-top: 17px;
+  min-width: 731px;
+}
+
+.web-1920-21 .overlap-group8 {
+  height: 68px;
+  position: relative;
+  width: 325px;
+}
+
+.web-1920-21 .group-161737 {
+  border-radius: 7px;
+  height: 18px;
+  left: 189px;
+  top: 0;
+  width: 112px;
+}
+
+.web-1920-21 .text-83 {
+  direction: rtl;
+  height: 22px;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 3px;
+  width: 182px;
+}
+
+.web-1920-21 .text-84 {
+  direction: rtl;
+  left: 130px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .overlap-group9 {
+  align-self: flex-end;
+  height: 65px;
+  position: relative;
+  width: 325px;
+}
+
+.web-1920-21 .group-161698 {
+  border-radius: 37px;
+  height: 50px;
+  left: 0;
+  top: 8px;
+  width: 325px;
+}
+
+.web-1920-21 .group-161700 {
+  border-radius: 7px;
+  height: 18px;
+  left: 155px;
+  top: 0;
+  width: 156px;
+}
+
+.web-1920-21 .text-73 {
+  direction: rtl;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.web-1920-21 .text-76 {
+  direction: rtl;
+  height: 17px;
+  left: 155px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+.web-1920-21 .path-2903 {
+  height: 41px;
+  margin-right: 315.74px;
+  margin-top: 11px;
+  object-fit: cover;
+  width: 1px;
+}
+
+.web-1920-21 .overlap-group-container-4 {
+  align-self: center;
+  gap: 303px;
+  height: 37px;
+  margin-right: 92.0px;
+  margin-top: 25px;
+  min-width: 393px;
+}
+
+.web-1920-21 .text-container {
+  align-self: flex-end;
+  height: 32px;
+  position: relative;
+  width: 44px;
+}
+
+.web-1920-21 .text-6 {
+  direction: rtl;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.web-1920-21 .overlap-group4 {
+  height: 236px;
+  margin-left: 0;
+  margin-top: 41px;
+  position: relative;
+  width: 2051px;
+}
+
+.web-1920-21 .path-2878 {
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.web-1920-21 .text-5 {
+  direction: rtl;
+  height: 185px;
+  left: 813px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  width: 810px;
+}
+
+.web-1920-21 .text-5-1 {
+  direction: rtl;
+  height: 73px;
+  left: 813px;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  width: 1193px;
+}
+
+.web-1920-21 .path-2882 {
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 2051px;
+}
+
+.web-1920-21 .group {
+  background-color: var(--white);
+  position: absolute;
+}
+
+.web-1920-21 .overlap-group-container-5 {
+  align-items: flex-start;
+  display: flex;
+}
+
+.web-1920-21 .rectangle {
+  background-color: var(--white);
+  border-radius: 37px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  width: 325px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}

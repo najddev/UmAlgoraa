@@ -1,0 +1,212 @@
+﻿@model List<UmAlgoraa.Models.Ads>
+@{
+    ViewData["Title"] = "index";
+    Layout = "_MyLayout";
+
+}
+
+
+<div class="container-fluid  d-flex flex-wrap " dir="rtl" lang="ar">
+
+    <div class="col-12 d-flex flex-wrap ">
+        <div class="col-1 "></div>
+        <div class="col-9 h-150 ">
+            <div class="row d-flex flex-wrap " >
+
+                <div class="col-4 " ></div>
+                <div class="col-4 w-120 h-120" >
+                    <img class="w-100 h-100" src="~/img/MyLogo.jpg" />
+                </div>
+                <div class="col-4 "></div>
+            </div>
+            @if (Model.Count == 0)
+            {
+                <h1 class="text-center" style="color: red">sorry you havent add any ads yet!</h1>
+            }
+            @foreach (Ads ad in Model)
+            {
+
+                <div class="card row" style="border : 2px solid #4281BE">
+
+                    <div class="card-body col-12">
+                        @*<input type="hidden" asp-for="@ad.Id">*@
+                        <div id="change1" class="col-md-9 col-12">
+                            <h4>عنوان الاعلان : @ad.Title</h4>
+                            <p> تاريخ الاعلان  : @ad.OpenDate</p>
+                            <p> رقم الطلب  : <span class="text-muted">@ad.CompetitionNum</span> </p>
+                        </div>
+                        <div id="change2" class="col-md-3 col-12">
+                            <button class="btn btn-danger w-100 text-center text-light">@ad.AdStatus</button>
+                        </div>
+                    </div>
+
+                    
+                    
+
+                    <div class="d-flex justify-content-center">
+                        <a asp-action="Details" asp-route-id="@ad.Id" class="btn btn-success text-center">التفاصيل</a>
+                    </div>
+                    
+                    <div class="card-body col-3"></div>
+                </div>
+            }
+
+        </div>
+        <div class="col-3 "</div>
+    </div>
+</div>
+
+
+
+
+
+
+@* 
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Competition)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OpenDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deadline)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PampletValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompetitionNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detalies)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagePath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Draft)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Competition)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpenDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deadline)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PampletValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompetitionNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Detalies)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImagePath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.ApplicationUserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Draft.UserId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_MyLayout";
+
+}
+
+
+<div class="container-fluid  d-flex flex-wrap " dir="rtl" lang="ar">
+
+    <div class="col-12 d-flex flex-wrap ">
+        <div class="col-3 "></div>
+        <div class="col-6 " style="background-color:#f2f2f2">
+            <div class="row d-flex flex-wrap ">
+
+                <div class="col-4 "></div>
+                <div class="col-4 ">
+                    <img class="w-100 h-100" src="~/img/logo.png" />
+
+                </div>
+                <div class="col-4 "</div>
+            </div>
+            @if (Model.Count == 0)
+            {
+                <h1 style="color: red">sorry you havent add any ads yet!</h1>
+            }
+            @foreach (Ads ad in Model)
+            {
+                <div class="card row">
+                    <div class="card-body col-4">
+                        <h3>عنوان الاعلان</h3>
+                        <p> تاريخ الاعلان  :<span class="text-muted">@ad.OpenDate</span> </p>
+                        <p> رقم الطلب  :<span class="text-muted">@ad.CompetitionNum</span> </p>
+                    </div>
+                    <div class="col-5"></div>
+                    <div class="card-body col-3">This is some text within a card body.</div>
+                </div>
+            }
+
+        </div>
+        <div class="col-3 "</div>
+    </div>
+</div>
+*@

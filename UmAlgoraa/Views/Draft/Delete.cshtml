@@ -1,0 +1,28 @@
+﻿@model UmAlgoraa.Models.Ads
+@{
+    ViewData["Title"] = "index";
+    Layout = "_MyLayout";
+
+}
+
+
+<div class="container-fluid d-flex flex-wrap" dir="rtl" lang="ar">
+    <div class="col-12 d-flex flex-wrap">
+        <div class="col-1"></div>
+        <div class="col-9 h-150" >
+
+
+            <div class="row d-flex flex-wrap justify-content-center">
+                <!-- Added justify-content-center to center the content -->
+                <div class="col-4"></div>
+                <div id="bigger" class="col-4" style="max-width:300px; max-height:240px">
+                    <!-- Doubled the width and height -->
+                    <img src="/img/_Done.png" style="width:200px; max-height:200px" /> <!-- Doubled the width and height -->
+                    <h3 style="color:green;">تم حذف المسودة بنجاح</h3>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+        <div class="col-3"></div> <!-- Fixed the missing closing quote -->
+    </div>
+</div>
